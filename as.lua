@@ -125,7 +125,7 @@ name = 'nhilith',
         ['Option Border 2']           = fromrgb(0,0,0);
         ['Option Background']         = fromrgb(24,25,37);
         ["Risky Text"]                = fromrgb(128, 0, 128);  -- Changed from red to purple
-        ["Risky Text Enabled"]        = fromrgb(186, 85, 211); -- Changed from red to purple (brighter shade)
+        ["Risky Text Enabled"]        = fromrgb(121, 0, 125); -- Changed from red to purple (brighter shade)
     }
 },
     {
