@@ -104,29 +104,29 @@ library.themes = {
     },
     {
 name = 'nhilith',
-    theme = {
-        ['Accent']                    = fromrgb(103,89,179);
-        ['Background']                = fromrgb(22,22,31);
-        ['Border']                    = fromrgb(0,0,0);
-        ['Border 1']                  = fromrgb(50,50,50);
-        ['Border 2']                  = fromrgb(24,25,37);
-        ['Border 3']                  = fromrgb(10,10,10);
-        ['Primary Text']              = fromrgb(235,235,235);
-        ['Group Background']          = fromrgb(24,25,37);
-        ['Selected Tab Background']   = fromrgb(24,25,37);
-        ['Unselected Tab Background'] = fromrgb(22,22,31);
-        ['Selected Tab Text']         = fromrgb(245,245,245);
-        ['Unselected Tab Text']       = fromrgb(145,145,145);
-        ['Section Background']        = fromrgb(22,22,31);
-        ['Option Text 1']             = fromrgb(245,245,245);
-        ['Option Text 2']             = fromrgb(195,195,195);
-        ['Option Text 3']             = fromrgb(145,145,145);
-        ['Option Border 1']           = fromrgb(50,50,50);
-        ['Option Border 2']           = fromrgb(0,0,0);
-        ['Option Background']         = fromrgb(24,25,37);
-        ["Risky Text"]                = fromrgb(145, 145, 145);  -- Changed from red to purple
-        ["Risky Text Enabled"]        = fromrgb(121, 0, 125); -- Changed from red to purple (brighter shade)
-    }
+theme = {
+    ['Accent']                    = fromrgb(255, 105, 180),  -- Hot pink for the kissy accent
+    ['Background']                = fromrgb(18, 18, 25),     -- Darker background
+    ['Border']                    = fromrgb(0, 0, 0),
+    ['Border 1']                  = fromrgb(80, 50, 80),     -- Purple-tinged border
+    ['Border 2']                  = fromrgb(30, 20, 40),     -- Dark purple border
+    ['Border 3']                  = fromrgb(10, 5, 15),      -- Very dark purple-black
+    ['Primary Text']              = fromrgb(245, 220, 255),  -- Soft purple-white text
+    ['Group Background']          = fromrgb(30, 20, 40),     -- Dark purple group bg
+    ['Selected Tab Background']   = fromrgb(40, 25, 50),     -- Brighter purple
+    ['Unselected Tab Background'] = fromrgb(18, 18, 25),
+    ['Selected Tab Text']         = fromrgb(255, 180, 220),  -- Pink text for selected
+    ['Unselected Tab Text']       = fromrgb(140, 110, 160),  -- Muted purple
+    ['Section Background']        = fromrgb(22, 18, 30),     -- Slightly purple dark
+    ['Option Text 1']             = fromrgb(255, 220, 240),  -- Bright pinkish text
+    ['Option Text 2']             = fromrgb(220, 180, 220),  -- Muted pink
+    ['Option Text 3']             = fromrgb(160, 130, 170),  -- Grayish purple
+    ['Option Border 1']           = fromrgb(80, 50, 80),
+    ['Option Border 2']           = fromrgb(40, 20, 50),
+    ['Option Background']         = fromrgb(30, 22, 40),     -- Purple-tinged option bg
+    ["Risky Text"]                = fromrgb(180, 120, 180),  -- Purple risky text
+    ["Risky Text Enabled"]        = fromrgb(255, 105, 180),  -- Hot pink when enabled
+}
 },
     {
         name = 'Fatality',
